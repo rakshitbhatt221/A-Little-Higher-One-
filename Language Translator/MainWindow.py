@@ -33,6 +33,7 @@ class Ui_MainWindow(object):
         self.translateButton.setMinimumSize(QtCore.QSize(75, 50))
         self.translateButton.setMaximumSize(QtCore.QSize(75, 50))
         self.translateButton.setText("Translate")
+        # need to change here thr texture and other functionalities
         
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("images/flag.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
